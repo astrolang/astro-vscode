@@ -1,19 +1,32 @@
 {
   "name": "astro",
-  "displayName": "astro",
-  "description": "Language support for Astro in VSCode",
-  "version": "0.0.1",
-  "publisher": "astro-lang",
+  "displayName": "Astro",
+  "description": "Astro extension for Visual Studio Code",
+  "version": "0.1.13",
+  "publisher": "appcypher",
   "engines": {
     "vscode": "^0.10.5"
   },
+  "icon": "icon.png",
+  "keywords": [
+      "astro",
+      "appcypher",
+      "nigeria",
+      "language"
+  ],
+  "categories": [
+      "Languages",
+      "Debuggers",
+      "Linters",
+      "Snippets",
+      "Formatters",
+      "Other"
+  ],
   "activationEvents": [
-    "onLanguage:astro"
+    "onLanguage:astro",
+    "onDebug:astro"
   ],
   "main": "./out/astroMain",
-  "categories": [
-    "Languages"
-  ],
   "contributes": {
     "languages": [
       {
@@ -37,6 +50,6 @@
       }
     ]
   },
-  "author": "",
+  "author": "appcypher",
   "license": "ISC"
 }
