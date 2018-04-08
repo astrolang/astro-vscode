@@ -1,6 +1,6 @@
 # Astro extension for Visual Studio Code
 
-A Visual Studio Code extension with rich support for the Astro language, expected features include linting, debugging, IntelliSense, code navigation, code formatting, refactoring, unit tests, snippets, and more!
+A Visual Studio Code extension with rich support for the Astro language. Expected features include linting, debugging, IntelliSense, code navigation, code formatting, refactoring, unit tests, snippets, and more!
 
 ![astro screenshot](https://github.com/AppCypher/Astro/blob/dev/media/images/astro-syntax.png)
 
