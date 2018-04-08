@@ -1,55 +1,56 @@
 {
-  "name": "astro",
-  "displayName": "Astro",
-  "description": "Astro extension for Visual Studio Code",
-  "version": "0.1.13",
-  "publisher": "appcypher",
-  "engines": {
-    "vscode": "^0.10.5"
-  },
-  "icon": "icon.png",
-  "keywords": [
-      "astro",
-      "appcypher",
-      "nigeria",
-      "language"
-  ],
-  "categories": [
-      "Languages",
-      "Debuggers",
-      "Linters",
-      "Snippets",
-      "Formatters",
-      "Other"
-  ],
-  "activationEvents": [
-    "onLanguage:astro",
-    "onDebug:astro"
-  ],
-  "main": "./out/astroMain",
-  "contributes": {
-    "languages": [
-      {
-        "id": "astro",
-        "aliases": [
-          "Astro",
-          "astro"
-        ],
-        "extensions": [
-          ".ast",
-          ".astro"
-        ],
-        "configuration": "./language-configuration.json"
-      }
+    "name": "astro",
+    "displayName": "Astro",
+    "description": "Astro extension for Visual Studio Code",
+    "version": "0.1.13",
+    "publisher": "appcypher",
+    "repository": "https://github.com/appcypher/astro-vscode",
+    "engines": {
+        "vscode": "^0.10.5"
+    },
+    "icon": "icon.png",
+    "keywords": [
+        "astro",
+        "appcypher",
+        "nigeria",
+        "language"
     ],
-    "grammars": [
-      {
-        "language": "astro",
-        "scopeName": "source.astro",
-        "path": "./syntaxes/astro.tmLanguage.json"
-      }
-    ]
-  },
-  "author": "appcypher",
-  "license": "ISC"
+    "categories": [
+        "Languages",
+        "Debuggers",
+        "Linters",
+        "Snippets",
+        "Formatters",
+        "Other"
+    ],
+    "activationEvents": [
+        "onLanguage:astro",
+        "onDebug:astro"
+    ],
+    "main": "./out/astroMain",
+    "contributes": {
+        "languages": [
+            {
+                "id": "astro",
+                "aliases": [
+                    "Astro",
+                    "astro"
+                ],
+                "extensions": [
+                    ".ast",
+                    ".astro"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "astro",
+                "scopeName": "source.astro",
+                "path": "./syntaxes/astro.tmLanguage.json"
+            }
+        ]
+    },
+    "author": "appcypher",
+    "license": "ISC"
 }
