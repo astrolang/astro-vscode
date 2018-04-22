@@ -6,11 +6,11 @@ A Visual Studio Code extension with rich support for the Astro language. Expecte
 
 
 ## Quick Start
-* **Step 1.** Install Astro on your system.
+* **Step 1.** Install [Astro]() on your system.
 
-* **Step 2.** Install the Python extension for Visual Studio Code.
+* **Step 2.** Install the Astro extension for Visual Studio Code.
 
-* **Step 3.** Open or create a Python file and start coding!
+* **Step 3.** Open or create an Astro file and start coding!
 
 ## Requirements
 
