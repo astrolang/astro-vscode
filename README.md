@@ -6,7 +6,7 @@ A Visual Studio Code extension with rich support for the Astro language. Expecte
 
 
 ## Quick Start
-* **Step 1.** Install [Astro]() on your system.
+* **Step 1.** Install [Astro](https://github.com/astrolang) on your system.
 
 * **Step 2.** Install the Astro extension for Visual Studio Code.
 
