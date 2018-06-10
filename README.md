@@ -25,6 +25,8 @@ None for now.
 None for now.
 
 ## Release Notes
+### 0.1.14
+Change Astro logo
 
 ### 0.1.13
 
