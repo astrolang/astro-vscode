@@ -2,7 +2,7 @@
     "name": "astro",
     "displayName": "Astro",
     "description": "Astro extension for Visual Studio Code",
-    "version": "0.1.13",
+    "version": "0.1.144",
     "publisher": "appcypher",
     "repository": "https://github.com/appcypher/astro-vscode",
     "engines": {
@@ -16,7 +16,7 @@
         "language"
     ],
     "categories": [
-        "Languages",
+        "Programming Languages",
         "Debuggers",
         "Linters",
         "Snippets",
