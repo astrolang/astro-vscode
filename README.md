@@ -26,7 +26,9 @@ None for now.
 
 ## Release Notes
 ### 0.1.14
-Change Astro logo
+
+- Changed Astro logo
+- Improved syntax highlighting
 
 ### 0.1.13
 
