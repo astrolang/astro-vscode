@@ -2,7 +2,7 @@
     "name": "astro",
     "displayName": "Astro",
     "description": "Astro extension for Visual Studio Code",
-    "version": "0.1.147",
+    "version": "0.1.148",
     "publisher": "appcypher",
     "repository": "https://github.com/appcypher/astro-vscode",
     "engines": {
@@ -48,6 +48,12 @@
                 "language": "astro",
                 "scopeName": "source.astro",
                 "path": "./syntaxes/astro.tmLanguage.json"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "astro",
+                "path": "./snippets/snippets.json"
             }
         ]
     },

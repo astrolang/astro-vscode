@@ -29,6 +29,7 @@ None for now.
 
 - Changed Astro logo
 - Improved syntax highlighting
+- Add snippets
 
 ### 0.1.13
 
