@@ -146,7 +146,7 @@
 	                "name": "keyword.control.astro"
 	            },
 	            {
-	                "match": "\\b(?:type|enum|fun|macro|let|var|priv|import|export)\\b",
+	                "match": "\\b(?:type|enum|fun|macro|let|var|pub|unsafe|import|export)\\b",
 	                "name": "storage.modifier.astro"
 	            }
 	        ]
