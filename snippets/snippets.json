@@ -2,8 +2,9 @@
     "Function": {
         "prefix": "fun",
         "body": [
-            "fun ${1:name}(${2:param}):",
-            "    ${3:pass}"
+            "fun ${1:name}(${2:param}) {",
+            "    ${3:body}",
+            "}"
         ],
         "description": "Defines a function with the specified parameters."
     },
@@ -20,92 +21,120 @@
     "Type": {
         "prefix": "type",
         "body": [
-            "type ${1:name}(${2:param}):",
-            "    ${3:pass}"
+            "type ${1:name} {",
+            "    ${2:body}",
+            "}"
         ],
-        "description": "Defines a type with the specified parameters."
+        "description": "Defines a type with the specified fields."
+    },
+    "Enum": {
+        "prefix": "enum",
+        "body": [
+            "enum ${1:name} {",
+            "    ${2:body},",
+            "}"
+        ],
+        "description": "Defines an enum with the specified elements."
+    },
+    "Match": {
+        "prefix": "match",
+        "body": [
+            "match ${1:value} {",
+            "    ${2:pattern} => ${3:expr},",
+            "}"
+        ],
+        "description": "Defines a match expression with the specified patterns."
     },
     "Print": {
-        "prefix": "type",
+        "prefix": "print",
         "body": [ "print('${1:message}')" ],
         "description": "Creates a print statement."
     },
     "If": {
         "prefix": "if",
         "body": [
-            "if ${1:condition}:",
-            "    ${2:pass}"
+            "if ${1:condition} {",
+            "    ${2:body}",
+            "}"
         ],
         "description": "Creates an if expression."
     },
     "Elif": {
         "prefix": "elif",
         "body": [
-            "elif ${1:condition}:",
-            "    ${2:pass}"
+            "elif ${1:condition} {",
+            "    ${2:body}",
+            "}"
         ],
         "description": "Creates an elif expression."
     },
     "Else": {
         "prefix": "else",
         "body": [
-            "else:",
-            "    ${1:pass}"
+            "else {",
+            "    ${1:body}",
+            "}"
         ],
         "description": "Creates an else expression."
     },
     "If-Else-Block": {
         "prefix": "ife",
         "body": [
-            "if ${1:condition}:",
-            "    ${2:pass}",
-            "else:",
-            "    ${3:pass}"
+            "if ${1:condition} {",
+            "    ${2:body}",
+            "} else {",
+            "    ${3:body}",
+            "}"
         ],
         "description": "Creates an if/else expression."
     },
     "If-Else-Inline": {
         "prefix": "if_e",
-        "body": [ "if ${1:condition}: ${2:pass} else: ${3:pass}" ],
+        "body": [ "if ${1:condition} { ${2:expr} } else { ${3:expr} }" ],
         "description": "Creates an if/else expression."
     },
     "While": {
         "prefix": "while",
         "body": [
-            "while ${1:condition}:",
-            "    ${2:pass}"
+            "while ${1:condition} {",
+            "    ${2:body}",
+            "}"
         ],
         "description": "Creates a while loop."
     },
     "For": {
         "prefix": "for",
         "body": [
-            "for ${1:variable} in ${2:iterable}:",
-            "    ${3:pass}"
+            "for ${1:variable} in ${2:iterable} {",
+            "    ${3:body}",
+            "}"
         ],
         "description": "Creates a for loop."
     },
     "If-Where": {
         "prefix": "ifw",
         "body": [
-            "if ${1:condition1} where ${2:condition2}",
-            "    ${3:pass}"
+            "if ${1:condition1} where ${2:condition2} {",
+            "    ${3:body}",
+            "}"
         ],
         "description": "Creates an if expression with a 'where' clause."
     },
     "While-Where": {
         "prefix": "whilew",
         "body": [
-            "while ${1:condition1} where ${2:condition2}",
-            "    ${3:pass}"
+            "while ${1:condition1} where ${2:condition2} {",
+            "    ${3:body}",
+            "}"
         ],
         "description": "Creates a while loop with a 'where' clause."
     },
     "For-Where": {
         "prefix": "forw",
         "body": [
-            "for ${1:variable} in ${2:iterable} where ${3:codition}:",
-            "    ${4:pass}"
+            "for ${1:variable} in ${2:iterable} where ${3:codition} {",
+            "    ${4:body}",
+            "}"
         ],
         "description": "Creates a for loop with a 'where' clause."
     }
