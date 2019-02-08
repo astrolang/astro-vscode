@@ -29,6 +29,9 @@
 	    {
 	        "include": "#function_calls"
 	    },
+	    {
+	        "include": "#macros"
+	    },
 		{
 			"include": "#multiple_declaration"
 		},
@@ -169,6 +172,14 @@
 					"match": "(?<=,)\\s*:(?=\\()",
 					"name": "entity.name.function.astro"
 				}
+	        ]
+		},
+		"macros":{
+	        "patterns":[
+	            {
+	                "match": "(?:[A-Za-z_][_A-Za-z0-9]*)\\s*!\\s*(?=\\(|\\[|\\{)",
+	                "name": "support.function.macro.astro"
+	            }
 	        ]
 		},
 		"multiple_declaration":{
